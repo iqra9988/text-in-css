@@ -1,0 +1,181 @@
+ /* FONT-FAMILY */
+/* body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+ h2 {
+    font-family: Arial, Verdana, sans-serif;}
+    .credits {
+    font-family: "Courier New", Courier,
+    monospace;} */
+
+ /* FONT-SIZE */
+/* pixels */
+/* p{ 
+    font-size: 15px;
+/* } */
+ /* percentage*/
+ /* p{
+    font-size: 200% */
+/* default value  */
+/* p{
+    font-size: larger;
+} */
+
+
+/* FONT-FACE */
+/* @font-face {
+    font-family: "test";
+    src: url("./fonts/EduTASBeginner-Bold.ttf");
+} */
+
+/* h1{
+   font-family: Test;
+}*/ 
+
+/* FONT-WEIGHT */
+/* P{
+    font-weight: 900PX;
+}*/
+
+/* FONT-STYLE */
+/* h1{
+    font-style: oblique;
+} */
+
+/* using id selector and comaring 3 style */
+/* #oblique{
+    font-style: oblique;
+}
+#italic{
+    font-style: italic;
+} */
+
+/* TEXT-TRANSFORMATION */
+/* hellow guys <=lowercase */
+/* Hellow Guys <=uppercase*/
+/* HELLOW GUYS  <=capitalize*/
+/* h1{
+    text-transform: uppercase;
+} */
+/* h1{
+    text-transform: lowercase;
+} */
+/*h1{
+    text-transform: capitalize;
+}*/
+/* TEXT-DECORATION*/
+/*#underline{
+    text-decoration: underline;
+}
+#line-through{
+    text-decoration: line-through;
+}
+#overline{
+    text-decoration: overline;
+}*/
+
+/* LINEHEIGHT-LADDING */
+/*p{
+    line-height: 40px;
+}*/
+
+
+/* LETTER AND WORD SPACING */
+/* word spacing */
+/*h1{
+    word-spacing: -30px;
+}*/
+/* letter spacing */
+/*h1{
+    letter-spacing: 10px;
+}*/
+
+/* TEXT ALIGN */
+/*h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}*/
+
+/* VERTICAL ALIGMENT */
+/*img{
+    vertical-align: middle;
+}*/
+
+/* TEXT INDENT */
+/*h1{
+    text-indent: 50PX;
+}*/
+
+/* TEXT SHADOW */
+/*p{
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px  darkmagenta;
+}*/
+
+/* FIRST LETTER OR FIRST SENTANCE */
+/*p::first-letter{
+    color: blueviolet;
+}
+p::first-line{
+    color: blue;
+}*/
+
+/* STYLING LINKS */
+/*a:link{
+    color: darkgreen;
+}
+
+a:visited{
+    color: blueviolet;
+}*/
+
+/*RESPONDING TO USER  */
+/* HOVER */
+/*input.btn:hover{
+    background-color: chocolate;
+}
+input.btn:active{
+    color: blueviolet;
+}*/
+/*input.btn:focus{
+    background-color: brown;
+}
+
+input.textbox:focus{
+    background-color: black;
+    color: azure;
+}*/
+/* ATTRIBUTE SELECTORS */
+/* existance */
+/* h1[name]{ 
+    color: blueviolet;
+}*/
+/* equality */
+/*h1[test="hi"]{
+color: orangered;
+}*/
+
+/* space */
+/*h1[test~="jeen"]{
+   color:darkred;
+}*/
+
+/* prefix */
+/*h1[test^="h"]{
+    color: cadetblue;
+}*/
+
+/* substring */
+/*h1[test*="el"]{
+    color: aqua;
+}/*
+
+/* suffix */
+h1[test$="l"]{
+    color: burlywood;
+}
